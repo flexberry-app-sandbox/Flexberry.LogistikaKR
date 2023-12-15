@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-logistika-k-r-товары-e",
+  "editForm": "i-i-s-logistika-k-r-товары-e",
+  "external": false,
+  "caption": "Товары",
+  "name": "IISLogistikaKRТоварыL",
+  "className": "ТоварыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-logistika-k-r-товары",
+      "modelProjection": "ТоварыL"
+    }
+  ]
+}

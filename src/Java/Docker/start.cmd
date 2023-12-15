@@ -1,0 +1,1 @@
+docker-compose -p logistikakr-java up -d

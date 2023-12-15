@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-logistika-k-r-докум-рез-пост-e",
+  "editForm": "i-i-s-logistika-k-r-докум-рез-пост-e",
+  "external": false,
+  "caption": "Документ результатов поставки",
+  "name": "IISLogistikaKRДокумРезПостL",
+  "className": "ДокумРезПостL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-logistika-k-r-докум-рез-пост",
+      "modelProjection": "ДокумРезПостL"
+    }
+  ]
+}

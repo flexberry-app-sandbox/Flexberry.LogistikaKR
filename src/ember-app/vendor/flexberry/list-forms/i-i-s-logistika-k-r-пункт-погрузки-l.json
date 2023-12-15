@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-logistika-k-r-пункт-погрузки-e",
+  "editForm": "i-i-s-logistika-k-r-пункт-погрузки-e",
+  "external": false,
+  "caption": "Пункт погрузки",
+  "name": "IISLogistikaKRПунктПогрузкиL",
+  "className": "ПунктПогрузкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-logistika-k-r-пункт-погрузки",
+      "modelProjection": "ПунктПогрузкиL"
+    }
+  ]
+}

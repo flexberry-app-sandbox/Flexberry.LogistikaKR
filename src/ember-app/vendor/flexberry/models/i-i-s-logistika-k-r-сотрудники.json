@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISLogistikaKRСотрудники",
+  "modelName": "i-i-s-logistika-k-r-сотрудники",
+  "className": "Сотрудники",
+  "nameSpace": "IIS.LogistikaKR",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "фИОСотруд",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СотрудникиE",
+      "modelName": "i-i-s-logistika-k-r-сотрудники",
+      "attrs": [
+        {
+          "name": "фИОСотруд",
+          "caption": "ФИО сотрудника",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СотрудникиL",
+      "modelName": "i-i-s-logistika-k-r-сотрудники",
+      "attrs": [
+        {
+          "name": "фИОСотруд",
+          "caption": "ФИО сотрудника",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
