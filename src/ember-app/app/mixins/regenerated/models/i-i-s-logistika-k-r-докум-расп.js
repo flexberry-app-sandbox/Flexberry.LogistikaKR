@@ -84,11 +84,11 @@ export let defineProjections = function (modelClass) {
     сотрудники: belongsTo('i-i-s-logistika-k-r-сотрудники', 'Сотрудники', {
       фИОСотруд: attr('ФИО сотрудника', { index: 6, hidden: true })
     }, { index: 5, displayMemberPath: 'фИОСотруд' }),
-    пунктПогрузки: belongsTo('i-i-s-logistika-k-r-пункт-погрузки', 'Адрес поставки', {
-      адрес: attr('Адрес поставки', { index: 11, hidden: true })
+    пунктПогрузки: belongsTo('i-i-s-logistika-k-r-пункт-погрузки', 'Адрес пункта погрузки', {
+      адрес: attr('Адрес пункта погрузки', { index: 11, hidden: true })
     }, { index: 10, displayMemberPath: 'адрес' }),
-    списокБарж: belongsTo('i-i-s-logistika-k-r-список-барж', 'Список барж', {
-      номерБаржи: attr('', { index: 13, hidden: true })
+    списокБарж: belongsTo('i-i-s-logistika-k-r-список-барж', 'Номер баржи', {
+      номерБаржи: attr('Номер баржи', { index: 13, hidden: true })
     }, { index: 12, displayMemberPath: 'номерБаржи' }),
     списокКонтей: belongsTo('i-i-s-logistika-k-r-список-контей', 'Номер контейнера', {
       номерКонтей: attr('Номер контейнера', { index: 15, hidden: true })

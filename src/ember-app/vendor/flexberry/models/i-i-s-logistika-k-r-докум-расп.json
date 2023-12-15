@@ -188,14 +188,14 @@
           "attrs": [
             {
               "name": "адрес",
-              "caption": "Адрес поставки",
+              "caption": "Адрес пункта погрузки",
               "hidden": true,
               "index": 11
             }
           ],
           "index": 10,
           "type": "standard",
-          "caption": "Адрес поставки",
+          "caption": "Адрес пункта погрузки",
           "name": "пунктПогрузки",
           "relatedTo": "i-i-s-logistika-k-r-пункт-погрузки",
           "inverse": null
@@ -209,14 +209,14 @@
           "attrs": [
             {
               "name": "номерБаржи",
-              "caption": "",
+              "caption": "Номер баржи",
               "hidden": true,
               "index": 13
             }
           ],
           "index": 12,
           "type": "standard",
-          "caption": "Список барж",
+          "caption": "Номер баржи",
           "name": "списокБарж",
           "relatedTo": "i-i-s-logistika-k-r-список-барж",
           "inverse": null
