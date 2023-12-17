@@ -32,7 +32,7 @@ export default Controller.extend({
               link: 'i-i-s-logistika-k-r-товары-l',
               caption: i18n.t('forms.application.sitemap.логистика.номенклатура.i-i-s-logistika-k-r-товары-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.номенклатура.i-i-s-logistika-k-r-товары-l.title'),
-              icon: 'file',
+              icon: 'building',
               children: null
             }]
           }, {
@@ -43,37 +43,37 @@ export default Controller.extend({
               link: 'i-i-s-logistika-k-r-организация-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-организация-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-организация-l.title'),
-              icon: 'file',
+              icon: 'paperclip',
               children: null
             }, {
               link: 'i-i-s-logistika-k-r-клиенты-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-клиенты-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-клиенты-l.title'),
-              icon: 'file',
+              icon: 'building',
               children: null
             }, {
               link: 'i-i-s-logistika-k-r-сотрудники-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-сотрудники-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-сотрудники-l.title'),
-              icon: 'chart bar',
+              icon: 'file',
               children: null
             }, {
               link: 'i-i-s-logistika-k-r-список-барж-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-список-барж-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-список-барж-l.title'),
-              icon: 'archive',
+              icon: 'folder open',
               children: null
             }, {
               link: 'i-i-s-logistika-k-r-список-контей-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-список-контей-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-список-контей-l.title'),
-              icon: 'tags',
+              icon: 'paperclip',
               children: null
             }, {
               link: 'i-i-s-logistika-k-r-пункт-погрузки-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-пункт-погрузки-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-logistika-k-r-пункт-погрузки-l.title'),
-              icon: 'building',
+              icon: 'briefcase',
               children: null
             }]
           }, {
@@ -90,13 +90,13 @@ export default Controller.extend({
               link: 'i-i-s-logistika-k-r-докум-расп-l',
               caption: i18n.t('forms.application.sitemap.логистика.документация.i-i-s-logistika-k-r-докум-расп-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.документация.i-i-s-logistika-k-r-докум-расп-l.title'),
-              icon: 'building',
+              icon: 'list',
               children: null
             }, {
               link: 'i-i-s-logistika-k-r-докум-рез-пост-l',
               caption: i18n.t('forms.application.sitemap.логистика.документация.i-i-s-logistika-k-r-докум-рез-пост-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.документация.i-i-s-logistika-k-r-докум-рез-пост-l.title'),
-              icon: 'suitcase',
+              icon: 'folder',
               children: null
             }]
           }]
